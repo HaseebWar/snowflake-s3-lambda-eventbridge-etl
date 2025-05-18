@@ -18,7 +18,7 @@ This pipeline automates the end-to-end flow of currency exchange data:
 
 ## Architecture
 
-![Architecture Diagram](https://github.com/username/snowflake-aws/raw/main/architecture-diagram.png)
+![Architecture Diagram](https://github.com/HaseebWar/snowflake-s3-lambda-eventbridge-etl/blob/main/Architecture.png)
 
 - AWS Lambda: Executes the ETL logic on a schedule  
 - Amazon S3: Stores raw exchange rate data as structured JSON files  
