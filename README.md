@@ -103,13 +103,13 @@ Run the SQL script at `code/snowflake.sql` to:
 
 .
 ├── code/
-│   ├── lambda_function.py     # Lambda handler script
-│   ├── snowflake_provider.py  # Snowflake connection logic
-│   └── snowflake.sql          # Snowflake schema and stored procedure
-├── environment-variables.txt  # List of env vars
-├── roles.txt                  # IAM role requirements
-├── secret-manager.txt         # Secrets Manager setup
-└── convention.txt             # Project standards
+│ ├── lambda_function.py 
+│ ├── snowflake_provider.py 
+│ └── snowflake.sql 
+├── environment-variables.txt 
+├── roles.txt 
+├── secret-manager.txt 
+└── convention.txt 
 
 ## 📈 Monitoring & Maintenance
 
