@@ -103,11 +103,16 @@ Run the SQL script at `code/snowflake.sql` to:
 
 .
 ├── code/
+
 │ ├── lambda_function.py 
+
 │ ├── snowflake_provider.py 
 │ └── snowflake.sql 
+
 ├── environment-variables.txt 
+
 ├── roles.txt 
+
 ├── secret-manager.txt 
 └── convention.txt 
 
