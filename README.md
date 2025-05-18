@@ -99,17 +99,18 @@ Run the SQL script at `code/snowflake.sql` to:
 
 4. Use EventBridge (CloudWatch Events) to schedule the Lambda run (e.g., hourly or daily)
 
+
 ## 🗂️ Project Structure
 
-.
-├── code/
-│ ├── lambda_function.py # Lambda handler script
-│ ├── snowflake_provider.py # Snowflake connection logic
-│ └── snowflake.sql # Snowflake schema and stored procedure
-├── environment-variables.txt # List of environment variables
-├── roles.txt # IAM role requirements
-├── secret-manager.txt # Secrets Manager setup instructions
-└── convention.txt # Project standards and conventions
+    .
+    ├── code/
+    │   ├── lambda_function.py     # Lambda handler script
+    │   ├── snowflake_provider.py  # Snowflake connection logic
+    │   └── snowflake.sql          # Snowflake schema and stored procedure
+    ├── environment-variables.txt  # List of environment variables
+    ├── roles.txt                  # IAM role requirements
+    ├── secret-manager.txt         # Secrets Manager setup instructions
+    └── convention.txt             # Project standards and conventions
 
 
 ## 📈 Monitoring & Maintenance
